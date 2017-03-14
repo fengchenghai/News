@@ -1,0 +1,40 @@
+<resources>
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base"/>
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
+        <!--将ActionBar隐藏，这里使用ToolBar-->
+        <item name="windowActionBar">false</item>
+        <!--如果使用API Level 22以上编译的话，要拿掉前缀字-->
+        <item name="windowNoTitle">true</item>
+        <!--colorPrimary对应ToolBar颜色-->
+        <item name="colorPrimary">#0062ff</item>
+        <!--colorPrimaryDark对应状态栏的颜色-->
+        <item name="colorPrimaryDark">#1d23a1</item>
+        <!--colorAccent对应的是EditText编辑时，RadioButton选中，CheckBox等选中时的颜色-->
+        <item name="colorAccent">#ff0008</item>
+        <!--windowBackground窗口的颜色-->
+        <item name="android:windowBackground">@color/windowColor</item>
+    </style>
+    <color name="windowColor">#ffffff</color>
+
+    <!--<style name="AppTheme." parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--<item name="drawerArrowStyle">@style/DrawerArrowStyle</item>-->
+    <!--</style>-->
+    <!--<style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">-->
+        <!--<item name="spinBars">true</item>-->
+        <!--<item name="color">@android:color/holo_red_dark</item>-->
+    <!--</style>-->
+    <!--<item name="drawerArrowStyle">@style/DrawerArrowStyle</item>-->
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/black</item>
+    </style>
+</resources>
